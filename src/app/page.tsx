@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { Analytics } from "@vercel/analytics/next"
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
                     className="inline-block w-4 h-4 align-middle"
                     viewBox="0 0 16 16"
                     fill="none"
+                    
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
@@ -341,6 +343,7 @@ export default function Home() {
             </div>
           </div>
         </div>
+      <Analytics />
     </div>
   );
 }
