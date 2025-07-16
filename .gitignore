@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Resume
+Resume_Nikhil_Tirunagiri-1.pdf
