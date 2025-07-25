@@ -161,7 +161,7 @@ export default function Home() {
                     Currently working on my bachelor's in Computer Science at George Mason University. I'm all about building cool stuff—whether it's a large-scale app, a small-scale side project, or even a machine learning model. <b>If it's interesting, I'm in.</b>
                   </p>
                   <p className="text-black text-base leading-relaxed mb-4">
-                    Love exploring new tech ( especially Quantum Computing! ), finding creative solutions to everyday problems, and building cool interesting projects that push my skills a little further each time.
+                    Love exploring new tech ( especially Quantum Computing! ), finding creative solutions to everyday problems, and building cool projects that push my skills a little further each time.
                   </p>
                   <div className="mb-6">
                     <p className="text-gray-600 text-sm font-medium mb-2">Interests & Skills:</p>
@@ -190,13 +190,50 @@ export default function Home() {
               </div>
             </div>
 
-            <h2 className="text-black text-[32px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Work Experience</h2>
+            <h2 className="text-black text-[32px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Experience</h2>
             
+
+            {/* TCT Intern */}
+            <div className="relative mb-8 rounded-lg overflow-hidden">
+              <div className="p-8">
+                <div className="mb-4">
+                  <p className="text-gray-600 text-sm font-normal leading-normal">Dec 2024 – Present (5 months)</p>
+                </div>
+                <h3 className="text-black text-2xl font-bold leading-tight mb-4">CEO & Founding Engineer</h3>
+                <p className="text-black text-base leading-relaxed mb-4">TheCollegeTech, India</p>
+                <ul className="text-black text-sm leading-relaxed mb-4 space-y-2">
+                  <li>• Co-founded this startup that provides Managements Systems and Tech services to Colleges and Universities across India</li>
+                  <li>• Designed & developed two comprehensive large-scale Learning Management Systems (LMS) Platform and a Job Portal for Universities across India</li>
+                  <li>• Feature development for applications: Contributed to building new features for analytics applications, writing and testing code, and integrating APIs</li>
+                  <li>• Managed a team of 10+ developers and designers to deliver high-quality products on time and within budget</li>
+                </ul>
+                <div className="mb-6">
+                  <p className="text-gray-600 text-sm font-medium mb-2">Skills:</p>
+                  <div className="flex flex-wrap gap-2">
+                    <span className="px-3 py-1 bg-blue-100 text-blue-800 text-xs rounded-full">Python</span>
+                    <span className="px-3 py-1 bg-red-100 text-red-800 text-xs rounded-full">Django</span>
+                    <span className="px-3 py-1 bg-green-100 text-green-800 text-xs rounded-full">FastAPI, RESTful APIs</span>
+                    <span className="px-3 py-1 bg-orange-100 text-orange-800 text-xs rounded-full">React</span>
+                    <span className="px-3 py-1 bg-red-100 text-red-800 text-xs rounded-full">SQL</span>
+                    <span className="px-3 py-1 bg-gray-100 text-gray-800 text-xs rounded-full">AWS</span>
+                    <span className="px-3 py-1 bg-indigo-100 text-indigo-800 text-xs rounded-full">Machine Learning</span>
+                    <span className="px-3 py-1 bg-red-100 text-red-800 text-xs rounded-full">Data Science</span>
+                    <span className="px-3 py-1 bg-red-100 text-red-800 text-xs rounded-full">Communications</span>
+                    <span className="px-3 py-1 bg-red-100 text-red-800 text-xs rounded-full">Leadership</span>
+                    <span className="px-3 py-1 bg-red-100 text-red-800 text-xs rounded-full">Management</span>
+                    <span className="px-3 py-1 bg-red-100 text-red-800 text-xs rounded-full">Marketing</span>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
             {/* Data Analytics Intern */}
             <div className="relative mb-8 rounded-lg overflow-hidden">
               <div className="p-8">
                 <div className="mb-4">
-                  <p className="text-gray-600 text-sm font-normal leading-normal">Jan 2025 – May 2025</p>
+                  <p className="text-gray-600 text-sm font-normal leading-normal">Jan 2025 – May 2025 (5 months)</p>
                 </div>
                 <h3 className="text-black text-2xl font-bold leading-tight mb-4">Data Analytics Intern</h3>
                 <p className="text-black text-base leading-relaxed mb-4">Eera Technology, Virginia</p>
