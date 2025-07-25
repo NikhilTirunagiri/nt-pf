@@ -176,9 +176,17 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <div
-                  className="md:w-1/2 min-h-[300px] md:min-h-[400px] bg-center bg-cover bg-no-repeat bg-gradient-to-br from-blue-300 to-indigo-500"
-                />
+                <div className="md:w-1/2 min-h-[300px] md:min-h-[400px] flex items-start justify-start pt-6 pl-15">
+                  <div className="relative w-72 h-72 md:w-96 md:h-96">
+                    <Image
+                      src="/IMG_1316.png"
+                      alt="Nikhil's profile picture"
+                      fill
+                      className="object-cover rounded-full shadow-lg"
+                      priority
+                    />
+                  </div>
+                </div>
               </div>
             </div>
 
