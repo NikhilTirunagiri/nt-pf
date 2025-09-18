@@ -194,8 +194,8 @@ export default function Home() {
                         text="About me :)"
                         animateOn="view"
                         revealDirection="start"
-                        speed={50}
-                        maxIterations={15}
+                        speed={60}
+                        maxIterations={20}
                         useOriginalCharsOnly={false}
                       />
                     </h3>
@@ -204,8 +204,8 @@ export default function Home() {
                         text="I'm currently working on getting my Comp. Sci Bachelor's Degree at George Mason University. Passionate about building cool and useful stuff — I worked, and have been working in Agentic Development, AI memory systems, and Management Systems for Universities. I love exploring new tech and creating projects that solve real problems and push my skills a little further every time. If it's interesting, I'm ready to dive in."
                         animateOn="view"
                         revealDirection="start"
-                        speed={45}
-                        maxIterations={20}
+                        speed={65}
+                        maxIterations={25}
                         useOriginalCharsOnly={false}
                       />
                     </p>
@@ -215,8 +215,8 @@ export default function Home() {
                           text="• Founded Petal (My latest project) - working on an AI powered personal memory system with cross-platform integration"
                           animateOn="view"
                           revealDirection="start"
-                          speed={40}
-                          maxIterations={18}
+                          speed={70}
+                          maxIterations={30}
                           useOriginalCharsOnly={false}
                         />
                       </li>
@@ -225,8 +225,8 @@ export default function Home() {
                           text="• Co-founded TheCollegeTech, where I designed and developed management systems for universities that are currently being deployed across colleges in India"
                           animateOn="view"
                           revealDirection="start"
-                          speed={40}
-                          maxIterations={18}
+                          speed={70}
+                          maxIterations={30}
                           useOriginalCharsOnly={false}
                         />
                       </li>
@@ -235,8 +235,8 @@ export default function Home() {
                           text="• Built full-stack applications including PlaceEasy and Vidya LMS platforms"
                           animateOn="view"
                           revealDirection="start"
-                          speed={40}
-                          maxIterations={18}
+                          speed={70}
+                          maxIterations={30}
                           useOriginalCharsOnly={false}
                         />
                       </li>
@@ -245,8 +245,8 @@ export default function Home() {
                           text="• Exploring AI, Data Analytics Automation, and Quantum Computing"
                           animateOn="view"
                           revealDirection="start"
-                          speed={40}
-                          maxIterations={18}
+                          speed={70}
+                          maxIterations={30}
                           useOriginalCharsOnly={false}
                         />
                       </li>
