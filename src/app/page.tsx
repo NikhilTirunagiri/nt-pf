@@ -252,13 +252,13 @@ export default function Home() {
                       </li>
                       <li>
                         <DecryptedText
-                          text="• Love Hiking 🏞️"
+                          text="• Love Hiking"
                           animateOn="view"
                           revealDirection="start"
                           speed={70}
                           maxIterations={30}
                           useOriginalCharsOnly={false}
-                        />
+                        /> <span className="text-xl">🏞️</span>
                       </li>
                     </ul>
                   </div>
