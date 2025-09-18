@@ -188,19 +188,71 @@ export default function Home() {
             {/* Main Content Section */}
             <div className="relative mb-8 rounded-lg overflow-hidden">
               <div className="flex flex-col md:flex-row min-h-[400px]">
-                <div className="md:w-1/2 p-8 flex flex-col justify-center">
-                  <h3 className="text-black text-2xl font-bold leading-tight mb-4">About me :)</h3>
-                  <p className="text-black text-base leading-relaxed mb-6">
-                    I'm currently working on getting my Comp. Sci Bachelor's Degree at George Mason University. Passionate about building cool and useful stuff — I worked, and have been working in Agentic Development, AI memory systems, and Management Systems for Universities. I love exploring new tech and creating projects that solve real problems and push my skills a little further every time. <b>If it's interesting, I'm ready to dive in.</b>
-                  </p>
-                  <ul className="text-black text-base leading-relaxed space-y-3">
-                    <li>• Founded Petal (My latest project) - working on an AI powered personal memory system with cross-platform integration</li>
-                    <li>• Co-founded TheCollegeTech, where I designed and developed management systems for universities that are currently being deployed across colleges in India</li>
-                    <li>• Built full-stack applications including PlaceEasy and Vidya LMS platforms</li>
-                    <li>• Exploring AI, Data Analytics Automation, and Quantum Computing</li>
-                    <li>• Love Hiking <span className="text-xl">🏞️</span> </li>
-                  </ul>
-                </div>
+                  <div className="md:w-1/2 p-8 flex flex-col justify-center">
+                    <h3 className="text-black text-2xl font-bold leading-tight mb-4">
+                      <DecryptedText
+                        text="About me :)"
+                        animateOn="view"
+                        revealDirection="start"
+                        speed={50}
+                        maxIterations={15}
+                        useOriginalCharsOnly={false}
+                      />
+                    </h3>
+                    <p className="text-black text-base leading-relaxed mb-6">
+                      <DecryptedText
+                        text="I'm currently working on getting my Comp. Sci Bachelor's Degree at George Mason University. Passionate about building cool and useful stuff — I worked, and have been working in Agentic Development, AI memory systems, and Management Systems for Universities. I love exploring new tech and creating projects that solve real problems and push my skills a little further every time. If it's interesting, I'm ready to dive in."
+                        animateOn="view"
+                        revealDirection="start"
+                        speed={45}
+                        maxIterations={20}
+                        useOriginalCharsOnly={false}
+                      />
+                    </p>
+                    <ul className="text-black text-base leading-relaxed space-y-3">
+                      <li>
+                        <DecryptedText
+                          text="• Founded Petal (My latest project) - working on an AI powered personal memory system with cross-platform integration"
+                          animateOn="view"
+                          revealDirection="start"
+                          speed={40}
+                          maxIterations={18}
+                          useOriginalCharsOnly={false}
+                        />
+                      </li>
+                      <li>
+                        <DecryptedText
+                          text="• Co-founded TheCollegeTech, where I designed and developed management systems for universities that are currently being deployed across colleges in India"
+                          animateOn="view"
+                          revealDirection="start"
+                          speed={40}
+                          maxIterations={18}
+                          useOriginalCharsOnly={false}
+                        />
+                      </li>
+                      <li>
+                        <DecryptedText
+                          text="• Built full-stack applications including PlaceEasy and Vidya LMS platforms"
+                          animateOn="view"
+                          revealDirection="start"
+                          speed={40}
+                          maxIterations={18}
+                          useOriginalCharsOnly={false}
+                        />
+                      </li>
+                      <li>
+                        <DecryptedText
+                          text="• Exploring AI, Data Analytics Automation, and Quantum Computing"
+                          animateOn="view"
+                          revealDirection="start"
+                          speed={40}
+                          maxIterations={18}
+                          useOriginalCharsOnly={false}
+                        />
+                      </li>
+                      <li>• Love Hiking <span className="text-xl">🏞️</span></li>
+                    </ul>
+                  </div>
                 <div className="md:w-1/2 min-h-[300px] md:min-h-[400px] flex items-start justify-start pt-6 pl-15">
                   <div className="relative w-72 h-72 md:w-96 md:h-96">
                     <div className="absolute inset-0">
