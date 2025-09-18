@@ -101,7 +101,7 @@ export default function Home() {
                 </span>
               </span>
             </a>
-            <a
+            {/* <a
               href="#"
               className="group block text-black text-base font-normal leading-normal underline underline-offset-4 py-1 transition-colors"
             >
@@ -128,7 +128,7 @@ export default function Home() {
                   </svg>
                 </span>
               </span>
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
@@ -143,7 +143,7 @@ export default function Home() {
           <a href="mailto:ntirunag@gmu.edu" className="text-black underline underline-offset-4">Email</a>
           <a href="https://github.com/NikhilTirunagiri" target="_blank" rel="noopener noreferrer" className="text-black underline underline-offset-4">GitHub</a>
           <a href="https://www.linkedin.com/in/nikhiltirunagiri/" target="_blank" rel="noopener noreferrer" className="text-black underline underline-offset-4">LinkedIn</a>
-          <a href="#" className="text-black underline underline-offset-4">Blogs</a>
+          {/* <a href="#" className="text-black underline underline-offset-4">Blogs</a> */}
         </div>
       </div>
       
@@ -193,13 +193,46 @@ export default function Home() {
             <h2 className="text-black text-[32px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Experience</h2>
             
 
-            {/* TCT Intern */}
+            {/* Petal Experience */}
             <div className="relative mb-8 rounded-lg overflow-hidden">
               <div className="p-8">
                 <div className="mb-4">
-                  <p className="text-gray-600 text-sm font-normal leading-normal">Dec 2024 – Present (5 months)</p>
+                  <p className="text-gray-600 text-sm font-normal leading-normal">Sep 2025 – Present</p>
                 </div>
-                <h3 className="text-black text-2xl font-bold leading-tight mb-4">CEO & Founding Engineer</h3>
+                <h3 className="text-black text-2xl font-bold leading-tight mb-4">Founder & Developer</h3>
+                <p className="text-black text-base leading-relaxed mb-4">Petal - Personal AI Memory System, Virginia</p>
+                <ul className="text-black text-sm leading-relaxed mb-4 space-y-2">
+                  <li>• Founded and architected AI-powered memory infrastructure platform with episodic, semantic, factual, and working memory layers, implementing semantic search with vector embeddings and LLM-powered natural language retrieval</li>
+                  <li>• Built comprehensive memory orchestrator using FastAPI that intelligently categorizes digital content, extracts factual information, learns behavioral patterns, while maintaining user privacy</li>
+                  <li>• Developed cross-platform ecosystem including Chrome extension, React web dashboard, SMS interface via Twilio, and MCP (Model Context Protocol) integration enabling "Login with Memory" functionality across AI applications</li>
+                  <li>• Designed scalable infrastructure using PostgreSQL with pgvector for semantic search, Redis for session management, and automated content processing pipelines handling 1000+ daily queries with enterprise-grade privacy controls</li>
+                </ul>
+                <div className="mb-6">
+                  <p className="text-gray-600 text-sm font-medium mb-2">Technologies:</p>
+                  <div className="flex flex-wrap gap-2">
+                    <span className="px-3 py-1 bg-blue-100 text-blue-800 text-xs rounded-full">Python</span>
+                    <span className="px-3 py-1 bg-green-100 text-green-800 text-xs rounded-full">FastAPI</span>
+                    <span className="px-3 py-1 bg-orange-100 text-orange-800 text-xs rounded-full">React</span>
+                    <span className="px-3 py-1 bg-purple-100 text-purple-800 text-xs rounded-full">PostgreSQL</span>
+                    <span className="px-3 py-1 bg-red-100 text-red-800 text-xs rounded-full">pgvector</span>
+                    <span className="px-3 py-1 bg-indigo-100 text-indigo-800 text-xs rounded-full">Redis</span>
+                    <span className="px-3 py-1 bg-yellow-100 text-yellow-800 text-xs rounded-full">Vector Embeddings</span>
+                    <span className="px-3 py-1 bg-gray-100 text-gray-800 text-xs rounded-full">LLM</span>
+                    <span className="px-3 py-1 bg-blue-100 text-blue-800 text-xs rounded-full">Chrome Extension</span>
+                    <span className="px-3 py-1 bg-green-100 text-green-800 text-xs rounded-full">Twilio</span>
+                    <span className="px-3 py-1 bg-purple-100 text-purple-800 text-xs rounded-full">MCP</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* TCT Experience */}
+            <div className="relative mb-8 rounded-lg overflow-hidden">
+              <div className="p-8">
+                <div className="mb-4">
+                  <p className="text-gray-600 text-sm font-normal leading-normal">Dec 2024 – Present</p>
+                </div>
+                <h3 className="text-black text-2xl font-bold leading-tight mb-4">Co-Founder & Product Developer</h3>
                 <p className="text-black text-base leading-relaxed mb-4">TheCollegeTech, India</p>
                 <ul className="text-black text-sm leading-relaxed mb-4 space-y-2">
                   <li>• Co-founded this startup that provides Managements Systems and Tech services to Colleges and Universities across India</li>
@@ -233,7 +266,7 @@ export default function Home() {
             <div className="relative mb-8 rounded-lg overflow-hidden">
               <div className="p-8">
                 <div className="mb-4">
-                  <p className="text-gray-600 text-sm font-normal leading-normal">Jan 2025 – May 2025 (5 months)</p>
+                  <p className="text-gray-600 text-sm font-normal leading-normal">Jan 2025 – May 2025</p>
                 </div>
                 <h3 className="text-black text-2xl font-bold leading-tight mb-4">Data Analytics Intern</h3>
                 <p className="text-black text-base leading-relaxed mb-4">Eera Technology, Virginia</p>
@@ -257,33 +290,6 @@ export default function Home() {
               </div>
             </div>
 
-            {/* IT Technician */}
-            <div className="relative mb-8 rounded-lg overflow-hidden">
-              <div className="p-8">
-                <div className="mb-4">
-                  <p className="text-gray-600 text-sm font-normal leading-normal">Jan 2024 – Present</p>
-                </div>
-                <h3 className="text-black text-2xl font-bold leading-tight mb-4">CEC IT Technician and Help Desk</h3>
-                <p className="text-black text-base leading-relaxed mb-4">George Mason University</p>
-                <ul className="text-black text-sm leading-relaxed mb-4 space-y-2">
-                  <li>• Provided first-level technical support to Faculty and staff, ensuring uninterrupted academic and research activities</li>
-                  <li>• Customized Linux, Windows, and Mac operating systems and software to meet the unique needs of each user, optimizing their work environments for maximum efficiency</li>
-                  <li>• Oversaw and resolved complex technical issues across the College of Engineering's student and research labs, managing over 250 workstations and handling network requests</li>
-                  <li>• Imaged, troubleshot, and set up Linux and Windows workstations for both personal and research purposes, tailoring operating systems and software to meet specific requirements</li>
-                </ul>
-                <div className="mb-6">
-                  <p className="text-gray-600 text-sm font-medium mb-2">Technologies:</p>
-                  <div className="flex flex-wrap gap-2">
-                    <span className="px-3 py-1 bg-red-100 text-red-800 text-xs rounded-full">Linux</span>
-                    <span className="px-3 py-1 bg-blue-100 text-blue-800 text-xs rounded-full">Windows</span>
-                    <span className="px-3 py-1 bg-gray-100 text-gray-800 text-xs rounded-full">macOS</span>
-                    {/* <span className="px-3 py-1 bg-purple-100 text-purple-800 text-xs rounded-full">MATLAB</span> */}
-                    {/* <span className="px-3 py-1 bg-green-100 text-green-800 text-xs rounded-full">Clonezilla</span>
-                    <span className="px-3 py-1 bg-yellow-100 text-yellow-800 text-xs rounded-full">PXE Boot</span> */}
-                  </div>
-                </div>
-              </div>
-            </div>
 
             <h2 className="text-black text-[32px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Projects</h2>
             
@@ -310,9 +316,9 @@ export default function Home() {
         
                     </div>
                   </div>
-                  <a href="#" className="text-gray-600 text-sm font-medium hover:text-black transition-colors">
+                  {/* <a href="#" className="text-gray-600 text-sm font-medium hover:text-black transition-colors">
                     View project →
-                  </a>
+                  </a> */}
                 </div>
                 <div
                   className="md:w-1/2 min-h-[300px] md:min-h-[400px] bg-center bg-cover bg-no-repeat bg-gradient-to-br from-gray-300 to-gray-500"
@@ -344,9 +350,9 @@ export default function Home() {
                       
                     </div>
                   </div>
-                  <a href="#" className="text-gray-600 text-sm font-medium hover:text-black transition-colors">
+                  {/* <a href="#" className="text-gray-600 text-sm font-medium hover:text-black transition-colors">
                     View project →
-                  </a>
+                  </a> */}
                 </div>
                 <div
                   className="md:w-1/2 min-h-[300px] md:min-h-[400px] bg-center bg-cover bg-no-repeat bg-gradient-to-br from-gray-300 to-gray-500"
