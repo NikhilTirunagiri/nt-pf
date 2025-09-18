@@ -250,7 +250,16 @@ export default function Home() {
                           useOriginalCharsOnly={false}
                         />
                       </li>
-                      <li>• Love Hiking <span className="text-xl">🏞️</span></li>
+                      <li>
+                        <DecryptedText
+                          text="• Love Hiking 🏞️"
+                          animateOn="view"
+                          revealDirection="start"
+                          speed={70}
+                          maxIterations={30}
+                          useOriginalCharsOnly={false}
+                        />
+                      </li>
                     </ul>
                   </div>
                 <div className="md:w-1/2 min-h-[300px] md:min-h-[400px] flex items-start justify-start pt-6 pl-15">
