@@ -53,7 +53,7 @@ const welcomeContent = {
         a developer passionate about building cool and useful stuff. This is an interactive terminal-based macintosh style portfolio where you can explore my work.
       </p>
       <div className="flex flex-row">
-      <p>Enjoy your time!   </p> 
+      <p>Enjoy your time on the site! </p> 
       <img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Happy_Mac.svg"></img>
       </div>
       <p className="mb-4 font-semibold">Quick Start:</p>
