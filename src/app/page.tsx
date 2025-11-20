@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useRef, useEffect, KeyboardEvent, ReactNode } from "react";
-
+import { Analytics } from '@vercel/analytics/react';
 const asciiFirstName = String.raw`
 
 ███╗   ██╗ ██╗ ██╗  ██╗ ██╗  ██╗ ██╗ ██╗
@@ -709,6 +709,7 @@ export default function Home() {
           </div>
         </div>
       )}
+      <Analytics />
     </div>
   );
 }
