@@ -1,42 +1,35 @@
 "use client"
 import { usePathname } from "next/navigation";
-import { useRouter } from "next/router";
-import { rotate } from "three/tsl";
+import { useRouter } from "next/navigation";
 
 
 export function useCurrentPath(){
     return usePathname()
 }
 
-export function pushToPage({children, href}){
-    const router = useRouter()
-    
-    const handleClick = (e) => {
-        e.preventDefault()
-        router.push(href)
-    }
-}
-
-
-
 
 export default function Sidebar(){
     const pathname = useCurrentPath()
+    const router = useRouter()
+    
+    const handleClick = (href: string) => {
+        router.push(href)
+    }
     
     return(
-        <div className="flex flex-col pr-10">  
-            <div className="pb-5">
+        <div className="flex flex-col pr-10 sticky">  
+            <div className="pb-4">
                 <a className="font-bold" href="https://www.nikhilt.dev/">nikhilt.dev</a>
             </div>
-            <div className="font-medium w-40">
+            <div className="font-normal w-40">
                 <ul>
-                    <li className={pathname === "/" ? "bg-red-300" : "hover:bg-red-300 onClick={handleClick}"}><a href="/">Home</a></li>
-                    <li className={pathname === "/about" ? "bg-red-300" : "hover:bg-red-200 onClick={handleClick}"}><a href="/about">About</a></li>
-                    <li className={pathname === "/blogs" ? "bg-red-300" : "hover:bg-red-200 onClick={handleClick}"}><a href="/blogs">Blogs</a></li>
-                    <li className={pathname === "/projexts" ? "bg-red-300" : "hover:bg-red-200 onClick={handleClick}"}><a href="/projexts">Projects</a></li>
-                    <li className={pathname === "/archive" ? "bg-red-300" : "hover:bg-red-200 onClick={handleClick}"}><a href="/archive">Archive</a></li>
-                    <li className={pathname === "/tags" ? "bg-red-300" : "hover:bg-red-200 onClick={handleClick}"}><a href="/tags">Tags</a></li>
-                    <li className={pathname === "/contact" ? "bg-blue-300" : "hover:bg-blue-200 onClick={handleClick}"}><a href="/contact">links</a></li>    
+                    <button className={pathname === "/" ? "bg-red-300  w-full text-left" : "hover:bg-red-200 w-full text-left"} onClick={() => handleClick("/")}>home</button>
+                    <button className={pathname === "/about" ? "bg-red-300 w-full text-left" : "hover:bg-red-200 w-full text-left"} onClick={() => handleClick("/about")}>about</button>
+                    <button className={pathname === "/blog" ? "bg-red-300 w-full text-left" : "hover:bg-red-200 w-full text-left"} onClick={() => handleClick("/blog")}>blog</button>
+                    <button className={pathname === "/projects" ? "bg-red-300 w-full text-left" : "hover:bg-red-200 w-full text-left"} onClick={() => handleClick("/projexts")}>projects</button>
+                    <button className={pathname === "/archive" ? "bg-red-300 w-full text-left" : "hover:bg-red-200 w-full text-left"} onClick={() => handleClick("/archive")}>archive</button>
+                    <button className={pathname === "/contact" ? "bg-red-300 w-full text-left" : "hover:bg-red-200 w-full text-left"} onClick={() => handleClick("/contact")}>links</button>    
+                    <button className={pathname === "/tags" ? "bg-red-300 w-full text-left" : "hover:bg-red-200 w-full text-left"} onClick={() => handleClick("/tags")}>tags</button>
                 </ul>
             </div>
         </div>
