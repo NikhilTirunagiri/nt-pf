@@ -40,16 +40,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} ${manrope.variable} ${notoSans.variable} antialiased`}>
-        <div className="flex flex-row justify-items-start pt-3 pl-2 text-13px pr-2">
-            <div className="max-h-full">
+        <div className="flex flex-row h-screen overflow-hidden pt-3 pl-2 text-13px pr-2">
+            <div className="fixed h-full overflow-hidden">
                   <Sidebar ></Sidebar>
             </div>
-            <div className="w-full flex flex-col">
+            <div className="w-full flex flex-col ml-44 overflow-y-auto">
                   <Topbar></Topbar>
-              <div className="gap-2 flex flex-col"> 
-                <span className="pb-4">
+              <div className="gap-2 flex flex-col pb-4 max-w-5xl"> 
                   {children}
-                </span>
               </div>
             </div>
         </div>
