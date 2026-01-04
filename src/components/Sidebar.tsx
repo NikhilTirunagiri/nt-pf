@@ -26,7 +26,8 @@ export default function Sidebar(){
                     <button className={pathname === "/" ? "bg-red-300  w-full text-left" : "hover:bg-red-200 w-full text-left"} onClick={() => handleClick("/")}>home</button>
                     <button className={pathname === "/about" ? "bg-red-300 w-full text-left" : "hover:bg-red-200 w-full text-left"} onClick={() => handleClick("/about")}>about</button>
                     <button className={pathname === "/blog" ? "bg-red-300 w-full text-left" : "hover:bg-red-200 w-full text-left"} onClick={() => handleClick("/blog")}>blog</button>
-                    <button className={pathname === "/projects" ? "bg-red-300 w-full text-left" : "hover:bg-red-200 w-full text-left"} onClick={() => handleClick("/projexts")}>projects</button>
+                    <button className={pathname === "/projects" ? "bg-red-300 w-full text-left" : "hover:bg-red-200 w-full text-left"} onClick={() => handleClick("/projects")}>projects</button>
+                    <button className={pathname === "/photos" ? "bg-red-300 w-full text-left" : "hover:bg-red-200 w-full text-left"} onClick={() => handleClick("/photos")}>photos</button>
                     <button className={pathname === "/archive" ? "bg-red-300 w-full text-left" : "hover:bg-red-200 w-full text-left"} onClick={() => handleClick("/archive")}>archive</button>
                     <button className={pathname === "/contact" ? "bg-red-300 w-full text-left" : "hover:bg-red-200 w-full text-left"} onClick={() => handleClick("/contact")}>links</button>    
                     <button className={pathname === "/tags" ? "bg-red-300 w-full text-left" : "hover:bg-red-200 w-full text-left"} onClick={() => handleClick("/tags")}>tags</button>
