@@ -18,7 +18,7 @@ export default function Home(){
                 <span>, </span>
                 <span className="underline font-bold">about me</span> 
                 <span>, </span>
-                <span className="underline font-bold">some pictures</span>  i took
+                <span className="underline font-bold">photos</span>
                 <span>, </span>
                 <span className="underline font-bold">an archive of the site</span>
                 <span>, </span>
