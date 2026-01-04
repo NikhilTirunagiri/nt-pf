@@ -6,6 +6,6 @@ import Topbar from "@/components/Topbar";
 
 export default function Home(){
     return(
-        <span>Contact page</span>
+        <span>Photos page</span>
     );
 }
