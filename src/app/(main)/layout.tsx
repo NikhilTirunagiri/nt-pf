@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Manrope, Noto_Sans } from "next/font/google";
-import "./globals.css";
+import "../globals.css";
 import Sidebar from "@/components/Sidebar";
 import Topbar from "@/components/Topbar";
 
@@ -40,8 +40,16 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} ${manrope.variable} ${notoSans.variable} antialiased`}>
-        <div className=" ">
-            {children}
+        <div className="flex flex-row h-screen overflow-hidden pt-3 pl-2 text-13px pr-2">
+            <div className="fixed h-full overflow-hidden">
+                  <Sidebar ></Sidebar>
+            </div>
+            <div className="w-full flex flex-col ml-44 overflow-y-auto">
+                  <Topbar></Topbar>
+              <div className="gap-2 flex flex-col pb-4 max-w-5xl"> 
+                  {children}
+              </div>
+            </div>
         </div>
       </body>
     </html>
