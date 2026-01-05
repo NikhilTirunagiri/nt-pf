@@ -30,8 +30,10 @@ export default function Home(){
                 <img src="/photos/dp.png" alt="dp"  className="pb-2 h-64 w-62 items-center" /> 
                 <p className="pl-1 pb-2">display picture</p> 
             </div>
+          
             <div className="pt-5">
                 <ul>
+                    <li>Resume: <a href="/resume.pdf" className="underline text-blue-600">nikhilt.dev/resume.pdf</a></li>
                     <li>email: <a href="mailto:ntirunag@gmu.edu" className="underline text-blue-600">ntirunag@gmu.edu</a></li>
                     <li>github: <a href="https://github.com/NikhilTirunagiri" className="underline text-blue-600">https://github.com/NikhilTirunagiri</a></li>
                     <li>linkedin: <a href="https://www.linkedin.com/in/nikhiltirunagiri/" className="underline text-blue-600">https://www.linkedin.com/in/nikhiltirunagiri/</a></li>

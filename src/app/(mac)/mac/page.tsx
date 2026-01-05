@@ -264,16 +264,16 @@ export default function Home() {
                 <li><span style={{ fontWeight: 'bold' }}>Worked as Data Analytics Intern</span> at Eera Tech (Virginia) where I optimized existing agentic workflows and brain stormed AI use cases in company's products</li>
                 <li>Exploring AI, Data Analytics Automation, and Quantum Computing</li>
                 <li>Love hiking 🏞️</li>
-                <p className="font-semibold">My Resume:   
+                <p className="font-semibold">My Resume:    
                 <a 
-                  href="https://mason.gmu.edu/~ntirunag/resume.pdf" 
+                  href="/resume.pdf" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   style={{ color: '#000080', textDecoration: 'underline' }}
                   onMouseEnter={(e) => e.currentTarget.style.color = '#0000FF'}
                   onMouseLeave={(e) => e.currentTarget.style.color = '#000080'}
                 >
-                  https://mason.gmu.edu/~ntirunag/resume.pdf
+                   nikhilt.dev/resume.pdf
                 </a>
                 </p>
               </ul>
