@@ -9,8 +9,9 @@ export default function Home(){
         <div className="flex flex-col">
             <div className="gap-5 flex flex-col max-w-3xl"> 
             <h1 className="text-3xl font-bold pb-4">About</h1>
+	    
                 <span className="pb-2 ">
-                    I'm Nikhil, Nice to meet you! :D  
+		    I'm Nikhil, Nice to meet you! :D  
                     <br/>
                     I am a senior year computer science student at George Mason University.
                 </span>
@@ -33,6 +34,7 @@ export default function Home(){
           
             <div className="pt-5">
                 <ul>
+		    <li>📍Fairfax, VA</li>
                     <li>Resume: <a href="/resume.pdf" className="underline text-blue-600">nikhilt.dev/resume.pdf</a></li>
                     <li>email: <a href="mailto:ntirunag@gmu.edu" className="underline text-blue-600">ntirunag@gmu.edu</a></li>
                     <li>github: <a href="https://github.com/NikhilTirunagiri" className="underline text-blue-600">https://github.com/NikhilTirunagiri</a></li>

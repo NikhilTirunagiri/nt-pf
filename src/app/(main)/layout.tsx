@@ -45,8 +45,7 @@ export default function RootLayout({
                   <Sidebar ></Sidebar>
             </div>
             <div className="w-full flex flex-col ml-44 overflow-y-auto">
-                  <Topbar></Topbar>
-              <div className="gap-2 flex flex-col pb-4 max-w-5xl"> 
+              <div className="gap-2 pt-5 flex flex-col pb-4 max-w-5xl"> 
                   {children}
               </div>
             </div>
