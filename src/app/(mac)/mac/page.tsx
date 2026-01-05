@@ -378,10 +378,9 @@ export default function Home() {
                 </li>
                 <li>
                   <p className="font-semibold mb-1">Skills</p>
-                  <p> <span className="font-semibold mb-1">Programming Languages: </span>Python, Java, C/C++, TypeScript, JavaScript, PHP, R, Bash</p>
+                  <p> <span className="font-semibold mb-1">Programming Languages: </span>Python, Java, C, C++, Rust, Go, TypeScript, JavaScript, PHP, R, Bash</p>
                   <p> <span className="font-semibold mb-1">Frameworks: </span>Django, React, Next.js, FastAPI, RESTful APIs</p>
                   <p> <span className="font-semibold mb-1">Databases: </span>PostgreSQL, Redis, Supabase</p>
-                  <p> <span className="font-semibold mb-1">Programming Languages: </span>Python, Java, C/C++, TypeScript, JavaScript, PHP, R, Bash</p>
                   <p> <span className="font-semibold mb-1">Cloud & DevOps: </span>AWS (EC2, S3), Microsoft Azure, Docker, Git</p>
                 </li>
               </ul>
