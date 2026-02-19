@@ -19,6 +19,7 @@ export default function Home(){
                 <span className="underline font-bold">about me</span> 
                 <span>, </span>
                 <span className="underline font-bold">photos</span>
+                
                 <span>, </span>
                 <span className="underline font-bold">an archive of the site</span>
                 <span>, </span>
@@ -28,7 +29,7 @@ export default function Home(){
                 I haven’t yet finished building this site completely, it is still under works<br/>
             </span>
             <span className="pt-15">
-                Last updated: Jan 4, 2026 11:41
+                Last updated: Feb 19, 2026 18:12
             </span>
         </div>
     );

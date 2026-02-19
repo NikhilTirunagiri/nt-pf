@@ -13,7 +13,7 @@ export default function Home(){
                 <span className="pb-2 ">
 		    I'm Nikhil, Nice to meet you! :D  
                     <br/>
-                    I am a senior year computer science student at George Mason University.
+                    
                 </span>
                 <span>
                     I spend most of my time building what interests me – from Agentic workflow development to modding my guitar, building a NAS, or even a http server from scratch, etc. I love exploring new tech and working on projects that solve real problems (at least for me) to push my skills further. <br/>
@@ -21,7 +21,10 @@ export default function Home(){
                 <span>
                     Apart from my coding journey, I like to go on hikes and spend most of my time outdoors in the summer. I’ve been playing guitar for over 5 years now and have developed a relative pitch. I also have a passion for photography. 
                 </span>
-                <ul>
+                <h3 className="font-bold">Education: </h3>
+                    <span className="ml-5">I am a senior year computer science student at George Mason University.</span>
+                <h3 className="font-bold">Work/Experience: </h3>
+                <ul className="ml-5">
                     <li><span className="font-bold">Founded Petal</span> - working on an AI powered personal smart glasses.</li>
                     <li><span className="font-bold">Co-founded TheCollegeTech</span>, where I designed and developed management systems for educational institutions.</li>
                     <li><span className="font-bold">Worked as Data Analytics Intern</span> at Eera Tech (Virginia) where I optimized existing agentic workflows and brain stormed AI use cases in company's products.</li>
