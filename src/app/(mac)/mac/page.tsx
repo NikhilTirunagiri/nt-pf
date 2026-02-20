@@ -459,7 +459,7 @@ export default function Home() {
       className="min-h-screen m-0 mt-0 p-5"
       style={{
         backgroundColor: '#B0B0B0',
-        backgroundImage: 'url(/wallpaper3.jpg)',
+        backgroundImage: 'url(/wallpaper3.webp)',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
