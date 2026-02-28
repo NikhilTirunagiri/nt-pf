@@ -7,6 +7,7 @@ import Topbar from "@/components/Topbar";
 export default function Home(){
     return(
         <div>
+            <h1 className="text-3xl font-bold pb-4">An archive of the site.</h1>
             <span>
                 You can view the old versions of this site here:<br/>
             </span>
