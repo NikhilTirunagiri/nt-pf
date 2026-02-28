@@ -29,7 +29,7 @@ export default function Sidebar(){
                     <button className={pathname === "/projects" ? "bg-red-300 w-full text-left" : "hover:bg-red-200 w-full text-left"} onClick={() => handleClick("/projects")}>projects</button>
                     <button className={pathname === "/photos" ? "bg-red-300 w-full text-left" : "hover:bg-red-200 w-full text-left"} onClick={() => handleClick("/photos")}>photos</button>
                     <button className={pathname === "/archive" ? "bg-red-300 w-full text-left" : "hover:bg-red-200 w-full text-left"} onClick={() => handleClick("/archive")}>archive</button>
-                    <button className={pathname === "/contact" ? "bg-red-300 w-full text-left" : "hover:bg-red-200 w-full text-left"} onClick={() => handleClick("/contact")}>links</button>    
+                    <button className={pathname === "/contact" ? "bg-red-300 w-full text-left" : "hover:bg-red-200 w-full text-left"} onClick={() => handleClick("/contact")}>contact</button>    
                     {/* <button className={pathname === "/tags" ? "bg-red-300 w-full text-left" : "hover:bg-red-200 w-full text-left"} onClick={() => handleClick("/tags")}>tags</button> */}
                 </ul>
             </div>
