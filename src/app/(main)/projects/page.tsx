@@ -7,6 +7,7 @@ import Topbar from "@/components/Topbar";
 export default function Home(){
     return(
         <div className="gap-5 flex flex-col h-screen max-w-3xl text-[15px]"> 
+        <h1 className="text-3xl font-bold pb-4">Projects</h1>
             <span className="pb-4 ">
                 I use <a href="https://neovim.io/" className="underline text-blue-600">neovim</a> and <a href="https://github.com/tmux/tmux/wiki" className="underline text-blue-600">tmux</a> as my main dev environment and VScode too.
             </span>

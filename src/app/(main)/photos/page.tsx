@@ -6,6 +6,10 @@ import Topbar from "@/components/Topbar";
 
 export default function Home(){
     return(
+        <div>
+        <h1 className="text-3xl font-bold pb-4">Photos</h1>
+        <p>Here are some of my favourite photos.</p>
+        <br/>
         <div className="gap-3 min-h-screen">
             <div className="pb-4 flex flex-row items-end">
                 <img src="/photos/john-nash.webp" alt="john-nash"  className="h-175 w-150" />
@@ -55,6 +59,6 @@ export default function Home(){
                 </div>
             </div>
         </div>
-        
+        </div>
     );
 }
