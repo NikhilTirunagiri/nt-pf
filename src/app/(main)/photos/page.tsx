@@ -6,7 +6,7 @@ import Topbar from "@/components/Topbar";
 
 export default function Home(){
     return(
-        <div>
+        <div className="max-w-5xl">
         <h1 className="text-3xl font-bold pb-4">Photos</h1>
         <p>Here are some of my favourite photos.</p>
         <br/>
