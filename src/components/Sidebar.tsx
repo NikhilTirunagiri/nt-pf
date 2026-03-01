@@ -17,7 +17,7 @@ export default function Sidebar(){
     }
     
     return(
-        <div className="flex flex-col sticky">  
+        <div className="flex flex-col sticky ">  
             <div className="pb-4">
                 <a className="font-bold" href="https://www.nikhilt.dev/">nikhilt.dev</a>
             </div>
