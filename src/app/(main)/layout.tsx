@@ -40,8 +40,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} ${manrope.variable} ${notoSans.variable} antialiased`}>
-        <div className="flex flex-row h-screen overflow-hidden pt-3 pl-2 text-13px pr-2">
-            <div className="fixed h-full overflow-hidden">
+        <div className="flex flex-row h-screen overflow-hidden pt-0 pl-2 text-13px pr-2 ">
+            <div className="fixed h-full overflow-hidden mt-2">
                   <Sidebar ></Sidebar>
             </div>
             <div className="w-full flex flex-col ml-44 overflow-y-auto">
