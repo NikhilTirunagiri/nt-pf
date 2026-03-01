@@ -10,7 +10,7 @@ export default function Home(){
             <h1 className="text-3xl font-bold pb-4">Blogs</h1>
             <ul>
                 <li>
-                    1. <a href="/blog/AgentsInSimulation" className="underline">Agents in real-world simulations</a>
+                    1. <a href="/blog/AgentsInSimulation" className="underline text-blue-600">Agents in real-world simulations</a>
                 </li>
             </ul>
         </div>
