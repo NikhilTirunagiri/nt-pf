@@ -47,7 +47,7 @@ export default function Home() {
 					<h1>Latest Blogs</h1>
 					<ul className="mt-5">
 						<p className="text-black opacity-70 ">Mar 1, 2025</p>
-						<li><a className="underline text-blue-600" href="/blogs/AgentsInSimulation"> Agents in Simulation</a></li>
+						<li><a className="underline text-blue-600" href="/blog/AgentsInSimulation"> Agents in Simulation</a></li>
 					</ul>
 				</div>
 				<div className="w-1/2">
