@@ -34,7 +34,9 @@ export default function Home() {
 			<div className="ml-20 mt-15 border-l-2 pl-5 h-100">
 				<h1 className="mb-2">Project ideas in my todo list:</h1>
 				<ol>
-					<li>1. Build an Operating System (kernel, drivers, OS) -- I know this is very ambitious, but the process will teach me a lot of valuable stuff</li>
+					<li>1. Build an OS</li>
+					<li>2. </li>
+					<li></li>
 
 				</ol>
 			</div>
