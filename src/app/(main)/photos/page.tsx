@@ -12,19 +12,19 @@ export default function Home(){
         <br/>
         <div className="gap-3 min-h-screen">
             <div className="pb-4 flex flex-col md:flex-row md:items-end">
-                <img src="/photos/john-nash.webp" alt="john-nash"  className="w-full max-w-xs md:h-175 md:w-150" />
+                <img src="/photos/john-nash.webp" alt="john-nash"  className="w-full max-w-xs md:max-w-none md:h-175 md:w-150" />
                 <p className="pt-1 md:pt-0 md:pl-2">@HackPrinceton</p>
             </div>
             <div className="flex flex-col md:flex-row md:items-end">
-                <img src="/photos/james-webb.webp" alt="james-webb"  className="w-full max-w-xs md:h-175 md:w-150" />
+                <img src="/photos/james-webb.webp" alt="james-webb"  className="w-full max-w-xs md:max-w-none md:h-175 md:w-150" />
                 <p className="pt-1 md:pt-0 md:pl-2">a picture of James-Webb Telescope launch 10,000+ miles away from my view. <br/>Shot on OnePlus 6</p>
             </div>
             <div className="flex flex-col md:flex-row pt-4 md:items-end">
-                <img src="/photos/metallica.webp" alt="metallica"  className="w-full max-w-xs md:h-175 md:w-150" />
+                <img src="/photos/metallica.webp" alt="metallica"  className="w-full max-w-xs md:max-w-none md:h-175 md:w-150" />
                 <p className="pt-1 md:pt-0 md:pl-2">\m/ <br/> James & Kirk from metallica <br/> Kirk is playing ‘Greeny,’ the legendary guitar once owned by Peter Green and Gary Moore.</p>
             </div>
             <div className="flex flex-col md:flex-row pt-4 md:items-end">
-                <img src="/photos/bagheera.webp" alt="bagghi"  className="w-full max-w-xs md:h-175 md:w-150" />
+                <img src="/photos/bagheera.webp" alt="bagghi"  className="w-full max-w-xs md:max-w-none md:h-175 md:w-150" />
                 <p className="pt-1 md:pt-0 md:pl-2">@shenandoah <br/> my friend Bagheera likes to star gaze</p>
             </div>
             <div className="flex flex-col pt-4">
