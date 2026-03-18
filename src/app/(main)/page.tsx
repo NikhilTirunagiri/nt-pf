@@ -28,11 +28,12 @@ export default function Home() {
 						<span>, </span>
 						<a href="/contact" className="underline font-bold">my contact info</a>, etc.
 					</span>
-					<span>
+					{/* <span>
 						I haven’t yet finished building this site completely, it is still under works<br />
-					</span>
-					<span className="pt-15">
-						Last updated: Feb 28, 2026 16:25
+					</span> */}
+					<br/>
+					<span className="">
+						Last updated: Mar 18, 2026 16:09
 					</span>
 					{/* </div> */}
 
@@ -42,11 +43,16 @@ export default function Home() {
 				</div>
 
 			</div>
-			<div className="flex flex-row mt-25">
+			<br/>
+			<br/>
+			<div className="flex flex-row">
 				<div className="w-1/2 min-h-screen ">
 					<h1>Latest Blogs</h1>
 					<ul className="mt-5">
-						<p className="text-black opacity-70 ">Mar 1, 2025</p>
+						<p className="text-black opacity-70 ">Mar 18, 2026</p>
+						<li><a className="underline text-blue-600" href="/blog/thoughts-on-design">Product Design</a></li>
+						<br/>
+						<p className="text-black opacity-70 ">Feb 19, 2026</p>
 						<li><a className="underline text-blue-600" href="/blog/AgentsInSimulation"> Agents in Simulation</a></li>
 					</ul>
 				</div>
