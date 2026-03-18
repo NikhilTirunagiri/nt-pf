@@ -9,7 +9,7 @@ export default function Home() {
 		<div>
 			<h1 className="text-xl font-bold mb-3">Agents in Simulation</h1>
 			<p className="text-red-400 mb-1">Thu Feb 19 14:44 EST</p>
-			<p className="w-150">
+			<p className="w-full md:w-150">
 				While scrolling on LinkedIn today I found about this really interesting <a href="https://www.simile.ai/" className="underline">startup</a> and they raised 100M$! Series A.
 				I got this very same interesting idea last week -- to understand how Agents living in an apartment/small town would live while I orchestrate all the real-world problems
 				(corruption, politics, social heirarchy, professions, etc.) and ofcourse these agents will have a emotional persona injected into them either by me or an Agent itself.

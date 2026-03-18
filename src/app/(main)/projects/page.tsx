@@ -6,8 +6,8 @@ import Topbar from "@/components/Topbar";
 
 export default function Home() {
 	return (
-		<div className="flex flex-row ">
-			<div className="gap-5 flex flex-col h-screen max-w-3xl text-[15px]">
+		<div className="flex flex-col md:flex-row">
+			<div className="gap-5 flex flex-col md:h-screen max-w-3xl text-[15px]">
 				<h1 className="text-3xl font-bold pb-4">Projects</h1>
 				<span className="pb-4 ">
 					I use <a href="https://neovim.io/" className="underline text-blue-600">neovim</a> and <a href="https://github.com/tmux/tmux/wiki" className="underline text-blue-600">tmux</a> as my main dev environment and VScode too.
@@ -31,7 +31,7 @@ export default function Home() {
 					<li><span className="font-bold">Cloud & DevTools</span>: AWS (EC2, S3), Docker, Git</li>
 				</ul>
 			</div>
-			<div className="ml-20 mt-15 border-l-2 pl-5 h-100">
+			<div className="ml-0 mt-8 border-t-2 pt-4 md:ml-20 md:mt-15 md:border-t-0 md:border-l-2 md:pt-0 md:pl-5 h-100">
 				<h1 className="mb-2">Project ideas in my todo list:</h1>
 				<ol>
 					<li>1. Build an OS</li>

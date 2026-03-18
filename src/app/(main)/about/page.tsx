@@ -9,7 +9,7 @@ export default function Home() {
 		<div className="flex flex-col">
 			<div className="gap-5 flex flex-col max-w-3xl">
 				<h1 className="text-3xl font-bold pb-4">About</h1>
-				<img src="/photos/dp.webp" alt="dp" className="pb-2 h-74 w-72 items-center" />
+				<img src="/photos/dp.webp" alt="dp" className="pb-2 w-full max-w-72 md:h-74 md:w-72 items-center" />
 				<span className="pb-2 ">
 					I'm Nikhil, Nice to meet you! :D
 					<br />
