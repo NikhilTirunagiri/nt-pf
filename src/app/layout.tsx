@@ -3,6 +3,8 @@ import { Geist, Geist_Mono, Manrope, Noto_Sans } from "next/font/google";
 import "./globals.css";
 import Sidebar from "@/components/Sidebar";
 import Topbar from "@/components/Topbar";
+import { Analytics } from '@vercel/analytics/next';
+ 
 
 
 const geistSans = Geist({
@@ -42,6 +44,7 @@ export default function RootLayout({
       <body className={`${geistSans.variable} ${geistMono.variable} ${manrope.variable} ${notoSans.variable} antialiased`}>
         <div className=" ">
             {children}
+            <Analytics />
         </div>
       </body>
     </html>
