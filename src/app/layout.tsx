@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Manrope, Noto_Sans } from "next/font/google";
 import "./globals.css";
-import Sidebar from "@/components/Sidebar";
-import Topbar from "@/components/Topbar";
 import { Analytics } from '@vercel/analytics/next';
  
 
@@ -42,10 +40,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} ${manrope.variable} ${notoSans.variable} antialiased`}>
-        <div className=" ">
-            {children}
-            <Analytics />
-        </div>
+        {children}
+        <Analytics />
       </body>
     </html>
   );

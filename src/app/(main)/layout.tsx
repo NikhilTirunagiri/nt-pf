@@ -3,7 +3,6 @@ import { Geist, Geist_Mono, Manrope, Noto_Sans } from "next/font/google";
 import "../globals.css";
 import Sidebar from "@/components/Sidebar";
 import Topbar from "@/components/Topbar";
-import { Analytics } from '@vercel/analytics/next';
  
 
 const geistSans = Geist({
@@ -48,7 +47,6 @@ export default function RootLayout({
             <div className="w-full flex flex-col md:ml-44 overflow-y-auto flex-1">
               <div className="gap-2 pt-3 md:pt-5 flex flex-col pb-4">
                   {children}
-                  <Analytics />
               </div>
             </div>
         </div>
