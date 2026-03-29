@@ -76,21 +76,21 @@ export default function Home() {
           title="Portrait Notes"
           description="A quick reel from concerts, skies, and friends."
           slides={singlePhotos}
-          imageClassName="w-full max-w-xs md:max-w-none md:h-175 md:w-150"
+          frameClassName="w-full max-w-xs md:max-w-none md:h-175 md:w-150"
           className="pb-4"
         />
 
         <PhotoCarousel
           title="The Appalachian: One of the oldest biome on the planet."
           slides={appalachianPhotos}
-          imageClassName="max-w-full"
+          frameClassName="w-full aspect-[4/3]"
           className="pt-2"
         />
 
         <PhotoCarousel
           title="Shenandoah"
           slides={shenandoahPhotos}
-          imageClassName="max-w-full"
+          frameClassName="w-full aspect-[4/3]"
           className="pt-2"
         />
       </div>

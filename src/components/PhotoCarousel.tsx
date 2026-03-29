@@ -16,6 +16,7 @@ type PhotoCarouselProps = {
   title: string;
   description?: string;
   slides: PhotoSlide[];
+  frameClassName?: string;
   imageClassName?: string;
   className?: string;
 };
@@ -26,6 +27,7 @@ export default function PhotoCarousel({
   title,
   description,
   slides,
+  frameClassName,
   imageClassName,
   className,
 }: PhotoCarouselProps) {
@@ -123,12 +125,14 @@ export default function PhotoCarousel({
                   : "pointer-events-none absolute inset-0 opacity-0",
               )}
             >
-              <img
-                src={slide.src}
-                alt={slide.alt}
-                draggable={false}
-                className={cn("w-full select-none", imageClassName)}
-              />
+              <div className={cn("overflow-hidden", frameClassName)}>
+                <img
+                  src={slide.src}
+                  alt={slide.alt}
+                  draggable={false}
+                  className={cn("h-full w-full select-none object-contain", imageClassName)}
+                />
+              </div>
             </figure>
           ))}
         </div>
