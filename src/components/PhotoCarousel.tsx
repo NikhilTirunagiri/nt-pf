@@ -109,25 +109,28 @@ export default function PhotoCarousel({
         className="outline-none focus-visible:ring-2 focus-visible:ring-black/60 focus-visible:ring-offset-2"
       >
         <div
-          className="overflow-hidden"
+          className="relative"
           onPointerDown={handlePointerDown}
           onPointerUp={handlePointerUp}
         >
-          <div
-            className="flex transition-transform duration-500 ease-out"
-            style={{ transform: `translateX(-${activeIndex * 100}%)` }}
-          >
-            {slides.map((slide) => (
-              <figure key={slide.src} className="w-full shrink-0">
-                <img
-                  src={slide.src}
-                  alt={slide.alt}
-                  draggable={false}
-                  className={cn("w-full select-none object-cover", imageClassName)}
-                />
-              </figure>
-            ))}
-          </div>
+          {slides.map((slide, index) => (
+            <figure
+              key={slide.src}
+              className={cn(
+                "transition-opacity duration-500",
+                index === activeIndex
+                  ? "relative opacity-100"
+                  : "pointer-events-none absolute inset-0 opacity-0",
+              )}
+            >
+              <img
+                src={slide.src}
+                alt={slide.alt}
+                draggable={false}
+                className={cn("w-full select-none", imageClassName)}
+              />
+            </figure>
+          ))}
         </div>
 
         <div className="flex flex-col gap-2 pt-2 md:flex-row md:items-start md:justify-between">
