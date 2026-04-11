@@ -16,6 +16,8 @@ export default function Home() {
 					<span>
 						you can find a number of things on the site: <br />
 					</span>
+
+					
 					<span className="">
 						<a href="/projects" className="underline font-bold">projects</a> im working on
 						<span>, </span>
@@ -28,12 +30,12 @@ export default function Home() {
 						<span>, </span>
 						<a href="/contact" className="underline font-bold">my contact info</a>, etc.
 					</span>
-					{/* <span>
-						I haven’t yet finished building this site completely, it is still under works<br />
-					</span> */}
+					<span>
+						checkout my latest project 👉 <a href="https://www.toolhunt.tech" className="underline text-blue-600">toolhunt.tech</a><br />
+					</span>
 					<br/>
 					<span className="">
-						Last updated: Mar 18, 2026 16:09
+						Last updated: April 11, 2026 01:45
 					</span>
 					{/* </div> */}
 
