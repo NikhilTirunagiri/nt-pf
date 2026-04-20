@@ -19,7 +19,7 @@ export default function Home() {
 					<li	className="mb-2"><span className="font-bold">Text manager in C</span>: a text manager (something like vim) that maintains a list of buffers, handles concurrent processes, and performs limited signal and I/O controls.</li>
 					<li	className="mb-2"><span className="font-bold">Go Web Crawler</span></li>
 					<li	className="mb-2"><span className="font-bold">Peer to Peer file sharing platform: a python project</span></li>
-					<li	className="mb-2"><span className="font-bold">TheCollegeTech</span>: designed and built MVPs for Management systems for educational institutions</li>
+					<li	className="mb-2"><a className="underline text-blue-600" href="https://thecollegetech.com">TheCollegeTech</a>: designed and built MVPs for Management systems for educational institutions</li>
 				</ul>
 
 				<span className="pt-6">
